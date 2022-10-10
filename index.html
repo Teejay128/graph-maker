@@ -13,25 +13,27 @@
         <h1>Represent your data in a graph</h1>
 
         <div class="form-input">
-            <h2 id="new-graph">New Graph <span>&plus;</span> <input type="text" id="graph-name"></h2>
-
-            <form action="#">
-                <label for="itemName">Item Name: </label>
+            <div class="newGraph">
+            <input type="text" id="graphName" placeholder="New Graph +">
+            <button id="newGraph">&rightarrow;</button>
+            </div>
+            
+            <form>
+                <label for="itemName">Item Name:</label>
                 <input type="text" id="itemName">
 
-                <label for="itemValue">Item Value: </label>
+                <label for="itemValue">Item Value:</label>
                 <input type="text" id="itemValue">
 
-                <input type="submit">
+                <input type="submit" value="Add item">
             </form>
         </div>
     </div>
     
-    <div class="container graph-data">
-
+    <div class="container graphData">
+    <!-- 
         <table>
             <h2>Graph 1</h2>
-            <a href="graph.html">Graph 1</a>
 
             <tr>
                 <th>Name</th>
@@ -54,18 +56,9 @@
                 <td>23</td>
             </tr>
 
-        </table>
+        </table> -->
 
     </div>
-
-        
-    <div class="container graph">
-        <p class="graph-item">fish</p>
-        <p class="graph-item">fish</p>
-        <p class="graph-item">fish</p>
-
-
-    </div>
-
+    <script src="main.js"></script>
 </body>
 </html>

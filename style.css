@@ -23,6 +23,36 @@ h1{
     margin-bottom: 10px;
 }
 
+.newGraph{
+    background-color: var(--sec-color);
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+
+#graphName{
+    font-weight: bold;
+    font-size: larger;
+    background: none;
+    border: none;
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0;
+}
+
+#graphName:focus{
+    background-color: var(--text-color);
+}
+
+#newGraph{
+    background-color: var(--pry-color);
+    color: var(--text-color);
+    font-size: x-large;
+    border: none;
+    margin: 0 1rem;
+    border-radius: 2rem 5rem 5rem 2rem;
+}
+
 form{
     display: flex;
     flex-direction: column;
@@ -49,12 +79,13 @@ input[type="submit"]{
     padding: 0.2rem;
 }
 
-.graph-data{
-    background-color: var(--sec-color);
+.graphData{
     padding: 1rem;
+    margin: 1rem 0;
 }
 
 table{
+    background-color: var(--sec-color);
     color: var(--pry-color);
     width: 100%;
 }
@@ -69,29 +100,4 @@ th{
 td{
     padding: 0.1rem;
     border: 2px solid var(--pry-color);
-}
-
-div.graph{
-    display: flex;
-    flex-direction: row;
-    height: 10rem;
-    justify-content: space-around;
-    margin-top: 1rem;
-}
-
-.graph-item{
-    position: relative;
-    margin-top: 20rem;
-    background-color: var(--text-color);
-    color: var(--pry-color);
-    height: 5rem;
-}
-
-
-#back{
-    font-size: large;
-    color: var(--text-color);
-    text-decoration: none;
-    text-align: center;
-    font-size: large;
 }
